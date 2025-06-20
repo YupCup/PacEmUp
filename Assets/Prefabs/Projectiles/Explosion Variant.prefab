@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7074755504150100714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5407526978705010234, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252145795613291472, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_Color.b
+      value: 0.46226406
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252145795613291472, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7374827
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125667461366780475, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      propertyPath: m_Name
+      value: Explosion Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6866077800674045132, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8125667461366780475, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5494105029277574001}
+  m_SourcePrefab: {fileID: 100100000, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+--- !u!1 &1363112001192896721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8125667461366780475, guid: 43e26c73822f7224c840989955cac7e9, type: 3}
+  m_PrefabInstance: {fileID: 7074755504150100714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5494105029277574001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363112001192896721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96937310d2aa501418fd3a52ed38f3c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPierces: 1000
+  damage: 10
+  lifetime: 0.05
+  speed: 10
